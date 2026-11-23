@@ -60,3 +60,7 @@ The full dataset is not included because of repository size limits. Only 5 image
 ```
 train/0_Recyclable/  train/1_Electronic/  train/2_Organic/  test/
 ```
+
+## License
+
+MIT. See [LICENSE](LICENSE). The sample images come from the original dataset and are not covered by this license.
