@@ -2,6 +2,8 @@
 
 Classifies waste images into **Recyclable**, **Electronic** and **Organic** by partially fine-tuning SigLIP 2 SO400M/14, with attention pooling and a two-stage hierarchical head.
 
+**Trained model:** [Hugging Face](https://huggingface.co/datasets/ayaayaa/train-val-best-test) ([direct download, 1.6 GB](https://huggingface.co/datasets/ayaayaa/train-val-best-test/blob/main/train_val_best_test.pt))
+
 ![Architecture](assets/architecture.png)
 
 ## Method
@@ -51,7 +53,7 @@ Validation macro-F1 peaked at epoch 2 and early stopping ended training at epoch
 | `report/report.pdf` | methodology report (Indonesian) |
 | `train/`, `test/` | sample images only |
 
-Model weights (1.6 GB): [Hugging Face](https://huggingface.co/datasets/ayaayaa/train-val-best-test/blob/main/train_val_best_test.pt)
+Model weights (`train_val_best_test.pt`, 1.6 GB): [Hugging Face](https://huggingface.co/datasets/ayaayaa/train-val-best-test/blob/main/train_val_best_test.pt)
 
 ## Dataset
 
